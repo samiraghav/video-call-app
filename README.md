@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+# Video Call App with ZegoCloud API
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a sample video call app that uses ZegoCloud API to enable real-time video and audio communication. The app is built with React and uses the Zego Express Ui Kit to implement video calling functionality.
 
-## Available Scripts
+# Features
+Real-time video and audio communication
 
-In the project directory, you can run:
+Screen sharing
 
-### `npm start`
+Text chat
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Mute/unmute audio and video
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Switch camera
 
-### `npm test`
+# Requirements
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To run the app, you will need the following:
 
-### `npm run build`
+Node.js (version 14 or later)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+ZegoCloud account with an app ID and app sign key
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Zego Express UI Kit
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Getting started
+1.Clone the repository:
 
-### `npm run eject`
+git clone https://github.com/samiraghav/video-call-app.git
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# Install dependencies:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+npm install
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# Run the app:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+npm start
 
-## Learn More
+This will start the app on http://localhost:3000/.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Usage
+To use the app, follow these steps:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Enter a room code and click "Go". This will create or join a room with the specified code.
 
-### Code Splitting
+Grant the app access to your camera and microphone when prompted.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Share the room code with other participants to allow them to join the call.
 
-### Analyzing the Bundle Size
+Use the toolbar at the bottom to mute/unmute audio and video, switch camera, and share your screen.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Use the text chat to send messages to other participants.
 
-### Making a Progressive Web App
+# Limitations
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The app may not work on older browsers that do not support WebRTC.
